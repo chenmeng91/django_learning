@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  color: #1f2933;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f9fb;
+}
+
+a {
+  color: #1b6ca8;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.sidebar {
+  padding: 24px;
+  background: #ffffff;
+  border-right: 1px solid #d9e2ec;
+}
+
+.sidebar nav,
+.account {
+  display: grid;
+  gap: 10px;
+}
+
+.account {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid #d9e2ec;
+}
+
+.account p {
+  margin: 0;
+}
+
+button,
+input[type="submit"] {
+  width: fit-content;
+  padding: 6px 12px;
+  color: #ffffff;
+  background: #176b87;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.content {
+  max-width: 920px;
+  padding: 32px;
+}
+
+.book-status {
+  font-weight: 700;
+}
+
+.text-success {
+  color: #247a3e;
+}
+
+.text-danger {
+  color: #a61b1b;
+}
+
+.text-warning {
+  color: #8a5a00;
+}
+
+.pagination {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+}
